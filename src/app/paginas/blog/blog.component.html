@@ -1,0 +1,49 @@
+<div class="blog_section ">
+    <div class="ctncomentarios">
+       <label  class="lblcomentarios">Comentarios</label>
+    </div>
+    <div class="row comentarios justify-content-center">
+   <div class="col-6">
+
+      <form action="" class="form-comentarios d-flex justify-content-end flex-wrap" (ngSubmit)="enviarcomentario()">
+         <textarea name="" id="" placeholder="Comentario" [(ngModel)]="nuevocomentario"  [ngModelOptions]="{standalone: true}">
+
+         </textarea>>
+         <button class="btn" type="button" (click)="enviarcomentario"> Comentar</button>
+      </form>
+
+      <div class="media">
+         <img src="assets/images/client-img.png"  width="64" >
+         <div class="media-body">
+            <p class="nombre">Jhon </p>
+            <p class="comentario">
+               lorem 
+            </p>
+            <div class="botones text-right" >
+               <a href=""> Responder</a>
+               <a href=""> Editar</a>
+               <a href=""> Borrar</a>
+            </div>
+         </div>
+      </div>
+         <div class="media">
+            <img src="assets/images/lient-img.png"  width="64" >
+            <div class="media-body">
+               <p class="nombre">Jhon </p>
+               <p class="comentario">
+                  lorem 
+               </p>
+               <div class="botones text-right" >
+                  <a href=""> Responder</a>
+                  <a href=""> Editar</a>
+                  <a href=""> Borrar</a>
+               </div>
+            </div>
+         </div>
+   </div>
+</div>
+        
+    
+      
+        
+ </div>

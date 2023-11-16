@@ -1,0 +1,19 @@
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-blog',
+  templateUrl: './blog.component.html',
+  styleUrls: ['./blog.component.css']
+})
+export class BlogComponent {
+  nuevocomentario:string="";
+
+
+
+  enviarcomentario(){
+    console.log(this.nuevocomentario);
+    this.nuevocomentario="";
+  }
+  
+}
+

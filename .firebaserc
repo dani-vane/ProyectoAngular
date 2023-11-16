@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "angular-proyecto-58980": {
+      "hosting": {
+        "ProyectoAngular": [
+          "angular-proyecto-58980"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "angular-proyecto-58980"
+  }
+}
